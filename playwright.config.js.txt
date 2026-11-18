@@ -1,0 +1,17 @@
+
+const { defineConfig } = require('@playwright/test');
+
+module.exports = defineConfig({
+
+    testDir: './tests',
+
+    retries: 2,
+
+    use: {
+        screenshot: 'only-on-failure',
+        trace: 'retain-on-failure'
+    },
+
+    reporter: 'html'
+
+});

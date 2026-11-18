@@ -1,0 +1,14 @@
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# Playwright
+node_modules/
+test-results/
+playwright-report/
+screenshots/
+
+# Environment files
+.env
